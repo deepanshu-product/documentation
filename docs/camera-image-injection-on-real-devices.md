@@ -74,7 +74,7 @@ The Image and Video Injection processes leverages **Sensor Instrumentation** tec
 
 ## Supported Camera APIs
 
-Below given is the list of Camera APIs which are supported by LambdaTest Image Injection tool. Please ensure that your app uses these APIs only to enable Image Injection.
+Below given is the list of Camera APIs which are supported by LambdaTest Image Injection tool. Please ensure that your app uses these APIs only to enable Video Injection.
 
 <Tabs className="docs__val">
 
@@ -103,6 +103,33 @@ Below given is the list of Camera APIs which are supported by LambdaTest Image I
 </TabItem>
 </Tabs>
 
+## Supported Camera Video APIs
+
+Below given is the list of Camera APIs which are supported by LambdaTest Video Injection tool. Please ensure that your app uses these APIs only to enable Image Injection.
+
+<Tabs className="docs__val">
+
+<TabItem value="bash" label="iOS >= version 13" default>
+
+  <div className="lambdatest__codeblock">
+    | Supported APIs |
+    |----------------|
+    | `captureOutput(_:didOutput:from:)` method of `AVCaptureVideoDataOutputSampleBufferDelegate` protocol. <br /><br />📕 For details, please check [Apple Documentation](https://developer.apple.com/documentation/avfoundation/avcapturevideodataoutputsamplebufferdelegate) |
+
+  </div>
+
+</TabItem>
+
+<TabItem value="powershell" label="Android >= version 13" default>
+
+  <div className="lambdatest__codeblock">
+    | Supported APIs |
+    |----------------|
+    | `ImageReader` class for accessing video frames from the camera output. <br /><br />📕 For details, please check [ImageReader documentation](https://developer.android.com/reference/android/media/ImageReader) |
+  </div>
+
+</TabItem>
+</Tabs>
 ## Image and Video Injection in Real Device App Testing
 
 This feature helps you inject any video or image which you want your app to click or scan through the device camera. You just need to follow the steps given below:
