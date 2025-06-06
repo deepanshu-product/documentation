@@ -61,9 +61,7 @@ This tool is ideal for testing features such as:
 ## How It Works
 LambdaTest utilizes **Sensor Instrumentation** to integrate with various mobile sensors, including the camera. When you enable Video Injection for a session, LambdaTest injects its camera code module into your app through Sensor Instrumentation. This module then mocks or overrides the iOS SDK used in your app.
 
-:::warning note
-- This feature is currently available on iOS only. Support for Android will be available soon.
-:::
+
 
 
 ## Video Injection in App Automation
