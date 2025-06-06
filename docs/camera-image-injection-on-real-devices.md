@@ -95,7 +95,7 @@ Below given is the list of Camera APIs which are supported by LambdaTest Image I
     | Supported APIs |
     |----------------|
     | `CameraX` API is used. <br />📕 For details, please check [CameraX documentation](https://developer.android.com/training/camerax) |
-    | `Camera` API is used. <br />📕 For details, please check [Camera documentation](https://developer.android.com/training/camera-deprecated)|
+    | `Camera` API is used. <br />📕 For details, please check [Camera documentation] (https://developer.android.com/training/camera-deprecated)|
     | `Camera2` API is used. <br />📕 For details, please check [Camera2 documentation](https://developer.android.com/training/camera2)|
     | `ACTION_IMAGE_CAPTURE` is standard Intent action that can be sent to have the camera application capture an image and return it. <br /><br />📕 For details, please check [MediaStore documentation](https://developer.android.com/reference/android/provider/MediaStore)|
   </div>
